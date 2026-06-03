@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Gallery</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ShopEasy</h1>
+<button id="loginBtn">Login</button>
+        <ul class="nav-links">
+            <button id="darkBtn">Dark Mode</button>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+    <a href="#">
+        Cart (<span id="cart-count">0</span>)
+    </a>
+</li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h2>Big Fashion Sale</h2>
+
+        <p>Up to 50% OFF on all products</p>
+
+        <button>Shop Now</button>
+
+    </div>
+
+</section>
+    <!-- Heading -->
+    <section class="heading">
+        <h2>Featured Products</h2>
+        <p>Best products at affordable prices</p>
+    </section>
+
+    <!-- Product Gallery -->
+    <section class="product-gallery">
+
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Shoes">
+
+            <h3>Running Shoes</h3>
+
+            <p>Comfortable and stylish sports shoes.</p>
+
+            <h4>₹1999</h4>
+            <div class="rating">
+    ⭐⭐⭐⭐⭐
+</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch">
+
+            <h3>Smart Watch</h3>
+
+            <p>Modern smartwatch with fitness tracking.</p>
+
+            <h4>₹2999</h4>
+            <div class="rating">
+    ⭐⭐⭐⭐⭐
+</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+
+            <h3>Headphones</h3>
+
+            <p>Noise cancelling wireless headphones.</p>
+
+            <h4>₹1499</h4>
+            <div class="rating">
+    ⭐⭐⭐⭐⭐
+</div>
+
+            <button>Add to Cart</button>
+        </div>
+
+    </section>
+    <!-- Category Buttons -->
+
+<div class="category-buttons">
+
+    <button class="filter-btn" data-category="all">All</button>
+
+    <button class="filter-btn" data-category="electronics">Electronics</button>
+
+    <button class="filter-btn" data-category="fashion">Fashion</button>
+
+    <button class="filter-btn" data-category="accessories">Accessories</button>
+
+</div>
+    <!-- Search Bar -->
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search products...">
+</div>
+
+    <!-- JS File -->
+     <!-- Footer -->
+<footer class="footer">
+
+    <h3>ShopEasy</h3>
+
+    <p>Your one-stop online shopping destination.</p>
+
+    <p>© 2026 All Rights Reserved</p>
+
+</footer>
+<!-- Back To Top Button -->
+
+<button id="topBtn">⬆</button>
+<!-- Login Popup -->
+
+<div class="login-popup" id="loginPopup">
+
+    <div class="login-box">
+
+        <span id="closeBtn">&times;</span>
+
+        <h2>Login</h2>
+
+        <input type="text" placeholder="Username">
+
+        <input type="password" placeholder="Password">
+
+        <button>Login</button>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+<section class="product-gallery">
+
+    <!-- Product Card 1 -->
+<div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+    <!-- Product Card 3 -->
+   <div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+    <!-- Paste Product Card 4 here -->
+   <div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+    <!-- Paste Product Card 5 here -->
+   <div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+    <!-- Paste Product Card 6 here -->
+  <div class="product-card" data-category="fashion">
+        ...
+    </div>
+
+</section>
